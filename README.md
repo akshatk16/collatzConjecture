@@ -1,3 +1,10 @@
 # collatzConjecture
-Most iterations to reach 1 using Collatz conjecture in C++; 
-Wrote this code on the second day of learning coding of any kind so it is not refactored/efficient as one would like it to be. Looking for suggestions as to how I can make this more efficient.
+
+For given n,
+n -> n/2 if n is even
+n -> 3n+1 if n is odd
+
+Conjecture states that every starting n reaches 1
+
+The program computes a running record of n for which n takes most iterations for any number upto n to reach 1.
+
